@@ -1,0 +1,17 @@
+# Ignore Poetry lockfile
+poetry.lock
+
+# Common Python ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Editor/IDE
+.vscode/
+.idea/
