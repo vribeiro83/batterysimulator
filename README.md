@@ -15,3 +15,10 @@ Install dependencies with Poetry:
 pip install poetry
 poetry install
 ```
+
+## Running the code
+You require to input a csv file, this at the moment has been tested on output from Ephanse app. Run the code below with the full path to the file:
+
+```bash
+python main.py --csv path_to_file.csv
+```
