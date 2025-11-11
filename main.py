@@ -1,5 +1,6 @@
 import argparse
-from model.run_analysis import run_analysis
+
+from model.analysis import run_analysis
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run solar battery analysis.")
