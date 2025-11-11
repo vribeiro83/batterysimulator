@@ -1,0 +1,4 @@
+from model.model_classes import SolarData
+
+def run_analysis(filepath: str) -> None:
+    solar_data = SolarData(filepath)
